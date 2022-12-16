@@ -1,10 +1,12 @@
-import { useState } from "react";
+
 import './App.css';
+import Caroussel from './components/Caroussel';
 
 function App() {
-  const [] = useState('');
+
   return (
     <div className="App">
+      <Caroussel/>
       
     </div>
   );
