@@ -1,0 +1,15 @@
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20vh;
+    height: 40vh;
+    width: 80vh;
+    padding: 10vh;
+    text-align: center;
+    color: #7c1a0c;
+    background: rgb(255, 165, 54);
+    opacity: .9;
+    border-radius: 10%;
+}

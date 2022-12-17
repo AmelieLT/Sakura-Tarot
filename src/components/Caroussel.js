@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import GetCards from '../services/GetCards'
 
+
 function Caroussel() {
     const [cards, setCards] = useState(null);
     GetCards(setCards); //cuando se importa la funcion fetch eluseState cambia de estado
