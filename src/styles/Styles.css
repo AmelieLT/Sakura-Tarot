@@ -1,0 +1,9 @@
+@import url(./Header.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root{
+    --yellow-header: #DCB03C;
+    --background-header: #502F30;
+    --letter: 'Roboto Slab', serif;
+}
+
