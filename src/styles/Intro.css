@@ -4,13 +4,17 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
     height: 40vh;
     width: 80vh;
-    padding: 10vh;
+    padding: 15vh;
     text-align: center;
     color: var(--background-header);
     background: var(--yellow-header);
     opacity: .9;
     border-radius: 10%;
+}
+
+.intro-image {
+    border-radius: 50%;
 }

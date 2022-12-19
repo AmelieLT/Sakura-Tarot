@@ -5,7 +5,7 @@
 }
 
 .frame {
-    background-color: transparent;
+    background-color: var(--yellow-header);
     color: var(--background-header);
     border: 2px solid var(--background-header); 
     border-radius: 10%;
