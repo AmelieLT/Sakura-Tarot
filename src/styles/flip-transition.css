@@ -1,0 +1,7 @@
+.flip-exit {
+    transform: rotateY(0deg);
+}
+
+.flip-exit-done {
+    transform: rotateY(180deg);  
+}

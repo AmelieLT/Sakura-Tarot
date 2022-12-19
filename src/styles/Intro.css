@@ -9,8 +9,8 @@
     width: 80vh;
     padding: 10vh;
     text-align: center;
-    color: #7c1a0c;
-    background: rgb(255, 165, 54);
+    color: var(--background-header);
+    background: var(--yellow-header);
     opacity: .9;
     border-radius: 10%;
 }
