@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './App.css';
-import Caroussel from './components/Caroussel';
+import FlippableCard from './components/Flippable-card';
 import Header from './components/Header';
 
 function App() {
@@ -9,8 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       <Link to='/intro'>Voy a la página principal</Link>
-      <Caroussel/>
-      
+      <FlippableCard/>  
     </div>
   );
 }

@@ -1,5 +1,38 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
+    grid-auto-rows: 30rem;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    width: 100%;
+}
+
+.card-image {
+    width: 30vh;
+    height: 50vh;
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1000ms;perspective: 62.5rem;
+}
+
+.card-front,
+.card-back {
+    height: 100%;
+    width: 100%;
+    font-family: var(--letter);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.card-front {
+
+}
+
+.card-back {
+    transform: rotateY(180deg);
+
 }
