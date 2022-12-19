@@ -1,4 +1,4 @@
-import './styles/button.css'
+import '../styles/Styles.css'
 
 function FunctionButton(props) {
 

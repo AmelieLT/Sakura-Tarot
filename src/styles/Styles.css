@@ -1,4 +1,7 @@
 @import url(./Header.css);
+@import url(./button.css);
+@import url(./caroussel.css);
+@import url(./Intro.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 :root{

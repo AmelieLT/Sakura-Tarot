@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import GetCards from '../services/GetCards'
-import './styles/caroussel.css'
+import '../styles/Styles.css'
 
 function Caroussel() {
     const [cards, setCards] = useState(null);
