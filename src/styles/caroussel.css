@@ -3,7 +3,6 @@
     grid-auto-rows: 30rem;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     gap: 1rem;
-    justify-items: center;
     width: 100%;
 }
 
@@ -15,7 +14,8 @@
 .card {
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 1000ms;perspective: 62.5rem;
+    transition: transform 2000ms;
+    perspective: 62.5rem;
 }
 
 .card-front,
@@ -26,10 +26,6 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
-}
-
-.card-front {
-
 }
 
 .card-back {

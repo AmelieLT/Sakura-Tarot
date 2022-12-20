@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import '../styles/Intro.css';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
-import Sakura from '../assets/Intro-image/images.jpeg'
+import Sakura from '../assets/Intro-image/sakura.png'
 
 export default function Intro() {
   return (

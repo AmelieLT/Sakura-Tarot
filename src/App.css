@@ -16,3 +16,11 @@
 .App-link {
   color: #61dafb;
 }
+
+.intro-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
