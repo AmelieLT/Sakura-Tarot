@@ -3,9 +3,11 @@ import './App.css';
 import Button from './components/Button';
 import FlippableCard from './components/Flippable-card';
 import Header from './components/Header';
+import { useState } from 'react';
 
 function App() {
-//estado
+  const [selectedCard, setSelectedCard] = useState([]);
+
   return (
     <div className="App">
       <Header/>
@@ -13,7 +15,7 @@ function App() {
       <Link to='/meaning'>
         <Button className='frame'text='Descubre el significado de tus cartas'/>
       </Link>
-      <FlippableCard/>  
+      <FlippableCard selectedCard={selectedCard} setSelectedCard={setSelectedCard}/>  
     </div>
   );
 }
