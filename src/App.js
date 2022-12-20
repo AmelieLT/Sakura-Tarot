@@ -6,9 +6,11 @@ import Header from './components/Header';
 import Kero from './assets/Intro-image/kero.png'
 import Cerverus from './assets/Intro-image/cerberus.png'
 
+import { useState } from 'react';
 
 function App() {
-//estado
+  const [selectedCard, setSelectedCard] = useState([]);
+
   return (
     <div className="App">
       <Header/>
