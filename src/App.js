@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './App.css';
-import Button from './components/Button';
 import FlippableCard from './components/Flippable-card';
 import Header from './components/Header';
 import Kero from './assets/Intro-image/kero.png'
@@ -22,7 +21,7 @@ function App() {
           <img className="intro-image" src={Cerverus} alt="Cerverus" />
         </Link>
       </div>
-      <FlippableCard/>  
+      <FlippableCard selectedCard={selectedCard} setSelectedCard={setSelectedCard}/>  
     </div>
   );
 }

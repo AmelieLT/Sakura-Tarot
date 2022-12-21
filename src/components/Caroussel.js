@@ -3,19 +3,19 @@ import GetCards from '../services/GetCards'
 import Card from '../components/Card'
 import '../styles/Styles.css'
 
-function Caroussel() {
+function Caroussel({selectedCard, setSelectedCard}) {
     const [cards, setCards] = useState(null);
-   
-     //cuando se importa la funcion fetch eluseState cambia de estado
+
     useEffect(() => {
         GetCards(setCards)
     },[])
 
+   
+
      return (
         <>    
             {cards !== null ? cards.map((card, index) => (
-               <Card card={card} key={index}
-                /> 
+               <Card card={card} key={index} selectedCard={selectedCard} setSelectedCard={setSelectedCard}/> 
             )) : 'no hay carta'}   
         </>
   )
