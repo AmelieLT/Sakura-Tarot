@@ -3,9 +3,8 @@ import './App.css';
 import FlippableCard from './components/Flippable-card';
 import Header from './components/Header';
 import Kero from './assets/Intro-image/kero.png'
-import Cerverus from './assets/Intro-image/cerberus.png'
-
 import { useState } from 'react';
+import CerverusButton from './components/CerverusButton';
 
 function App() {
   const [selectedCard, setSelectedCard] = useState([]);
@@ -17,9 +16,7 @@ function App() {
         <Link to='/intro'>
           <img className="intro-image" src={Kero} alt="Kero" />
         </Link>
-        <Link to='/meaning'>
-          <img className="intro-image" src={Cerverus} alt="Cerverus" />
-        </Link>
+        <CerverusButton selectedCard={selectedCard}/>
       </div>
       <FlippableCard selectedCard={selectedCard} setSelectedCard={setSelectedCard}/>  
     </div>

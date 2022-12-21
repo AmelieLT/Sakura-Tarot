@@ -10,7 +10,7 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<App/>}/>
         <Route path='/intro' element={<Intro/>}/>
-        <Route path='/meaning' element={MeaningPage}/>
+        <Route path='/meaning' element={<MeaningPage/>}/>
       </Routes>
     </BrowserRouter>
   )
