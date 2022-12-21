@@ -2,11 +2,11 @@ import '../styles/flippable-card.css';
 import Caroussel from './Caroussel'
 import React from 'react'
 
-export default function FlippableCard({selectedCard, setSelectedCard}) {
+export default function FlippableCard({selectedCards, setSelectedCards}) {
   
    return (
       <div className='flippable-card-container grid'>
-          <Caroussel selectedCard={selectedCard} setSelectedCard={setSelectedCard}/>
+          <Caroussel selectedCards={selectedCards} setSelectedCards={setSelectedCards}/>
       </div>
   )
 }

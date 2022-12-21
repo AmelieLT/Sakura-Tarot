@@ -1,21 +1,20 @@
 import React from 'react';
 import { useState } from 'react';
 
-export default function Card({card, selectedCard, setSelectedCard}) {
+export default function Card({card, selectedCards, setSelectedCards}) {
     //const { clowReverse, id, spanishName, clowCard, meaning } = card;
     const [showFront, setShowFront] = useState(true);
 
     const onClickCard = () => {
         setShowFront(!showFront);
-        setSelectedCard([...selectedCard, card])
-        console.log(selectedCard)
+        setSelectedCards([...selectedCards, card])
+        console.log(selectedCards)
         
     };
 
-   
     return (
-        <div meaning={card.meaning} className={showFront ? "card flip-exit" : "card flip-exit-done"} onClick={onClickCard}>
-            <div className='card-front'>
+        <div meaning={card.meaning} className={showFront ? "card flip-exit" : "card flip-exit-done"}>
+            <div className='card-front' onClick={onClickCard}>
                 <div key={card.id}>
                     <img className='card-image' src={card.cardsReverse.clowReverse} alt={card.spanishName}/>
                 </div>

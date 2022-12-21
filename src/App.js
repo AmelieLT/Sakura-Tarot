@@ -1,24 +1,21 @@
-import { Link } from 'react-router-dom';
 import './App.css';
 import FlippableCard from './components/Flippable-card';
 import Header from './components/Header';
-import Kero from './assets/Intro-image/kero.png'
 import { useState } from 'react';
 import CerverusButton from './components/CerverusButton';
+import KeroButton from './components/KeroButton';
 
 function App() {
-  const [selectedCard, setSelectedCard] = useState([]);
+  const [selectedCards, setSelectedCards] = useState([]);
 
   return (
     <div className="App">
       <Header/>
       <div className="intro-image-container">
-        <Link to='/intro'>
-          <img className="intro-image" src={Kero} alt="Kero" />
-        </Link>
-        <CerverusButton selectedCard={selectedCard}/>
+        <KeroButton/>
+        <CerverusButton selectedCards={selectedCards}/>
       </div>
-      <FlippableCard selectedCard={selectedCard} setSelectedCard={setSelectedCard}/>  
+      <FlippableCard selectedCards={selectedCards} setSelectedCards={setSelectedCards}/>  
     </div>
   );
 }
