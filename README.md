@@ -21,9 +21,9 @@ El usuario podrá escoger una carta para el pasado, otra para el presente y otra
  
 ### Images 
 ![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-38-57.png)
-![Image text](/images/README-cart.icon.jpg)
-![Image text](images/README-cart.jpg)
-
+![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-39-22.png)
+![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-39-46.png)
+![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-40-14.png)
  
 ## Technologies :computer:
 ***
@@ -35,19 +35,20 @@ El usuario podrá escoger una carta para el pasado, otra para el presente y otra
  
  
 ## Tools :computer:
-  *[Trello] (https://trello.com/)
-  *[Figma] (https://www.figma.com/)
-  *[Visual Studio Code] (https://code.visualstudio.com/)
-  *[Git/GitHub] (https://github.com/)
-  *[BootStrap]
-  *[Toastr]
+  *[Trello] 
+  *[Figma] 
+  *[Visual Studio Code]
+  *[Git/GitHub]
+  *[Node]
+  *[React]
+
  
  
 ## Installation :hammer_and_wrench:
 ***
 ```
 $ Open your Visual code and a wew terminal
-$ git clone https://github.com/JulianaMZ/Rareando.com
+$ git clone https://github.com/IsabelGuMo/Sakura-Tarot.git
 $ npm install
 $ npm start
 ```
@@ -55,9 +56,7 @@ $ npm start
 
 ## Authors :couple_with_heart_woman_woman:
 ***
-* [Juliana](https://github.com/JulianaMZ)
-* [Natalia](https://github.com/NataliaVorobyeva)
-* [Iris](https://github.com/mauisiri)
-* [Ameli](https://github.com/AmelieLT)
+* [Isabel](https://github.com/IsabelGuMo)
+* [Amélie](https://github.com/AmelieLT)
 
 
