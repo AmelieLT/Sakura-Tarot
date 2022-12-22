@@ -11,10 +11,14 @@
     text-align: center;
     color: var(--background-header);
     background: var(--yellow-header);
-    opacity: .9;
+    
     border-radius: 10%;
 }
 
 .intro-image {
     width: 40%;   
+}
+
+h2 {
+    color: var(--background-header);
 }
