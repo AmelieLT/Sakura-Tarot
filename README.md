@@ -21,9 +21,9 @@ El usuario podrá escoger una carta para el pasado, otra para el presente y otra
  
 ### Images 
 ![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-38-57.png)
-![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-39-22.png)
-![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-39-46.png)
 ![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-40-14.png)
+![Image text](./src/assets/radme-images/Screenshot%20from%202022-12-22%2009-39-46.png)
+
  
 ## Technologies :computer:
 ***
