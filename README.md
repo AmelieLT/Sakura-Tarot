@@ -27,9 +27,11 @@ El usuario podrá escoger una carta para el pasado, otra para el presente y otra
  
 ## Technologies :computer:
 ***
- * [HTML5](https://openwebinars.net/blog/que-es-html5/)
- * [CSS3](https://openwebinars.net/blog/que-es-css3/)
- * [JavaScript](https://www.javascript.com/)
+ * [HTML5]
+ * [CSS3]
+ * [JavaScript]
+ * [React - version 18.2.0]
+ * [React-router-dom - version 6.5.0]
  
  
 ## Tools :computer:
