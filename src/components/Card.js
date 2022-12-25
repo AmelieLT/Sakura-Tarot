@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import FrontCard from './FrontCard';
+import BackCard from './BackCard';
 
 export default function Card({card, selectedCards, setSelectedCards}) {
     //const { clowReverse, id, spanishName, clowCard, meaning } = card;
@@ -15,14 +17,10 @@ export default function Card({card, selectedCards, setSelectedCards}) {
     return (
         <div meaning={card.meaning} className={showFront ? "card flip-exit" : "card flip-exit-done"}>
             <div className='card-front' onClick={onClickCard}>
-                <div key={card.id}>
-                    <img className='card-image' src={card.cardsReverse.clowReverse} alt={card.spanishName}/>
-                </div>
+                <FrontCard card={card} />
             </div>
             <div className='card-back'>
-                <div key={card.id}>
-                    <img className='card-image' src={card.clowCard} alt={card.spanishName}/>
-                </div>
+                <BackCard card={card} />
             </div>
         </div>
     )
