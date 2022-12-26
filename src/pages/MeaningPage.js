@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/Styles.css'
 import Header from '../components/Header';
 import { useLocation } from 'react-router-dom';
+import BackCard from '../components/BackCard';
+import NotfoundBack from '../components/NotfoundBack';
 
 function MeaningPage() {
   const location = useLocation();
@@ -13,12 +15,16 @@ function MeaningPage() {
         <main className="containerCardsSecond">
           {selectedCards.map((card, index) => (
             <div key={index} className="containerCardsSecondBox">
-              <img
-                className="card card-image"
-                key={index}
-                src={card.clowCard}
-                alt={card.spanishName}
-              />
+            
+            {
+                card.clowCard ? (
+                    <BackCard card={card} />
+                ) : <div>
+                        <NotfoundBack card={card} />
+                    </div>
+            }
+                
+           
               <div className="cointainerInfo">
                 {index === 0 && <h2>PASADO</h2>}
                 {index === 1 && <h2>PRESENTE</h2>}
