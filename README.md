@@ -14,7 +14,7 @@ Conecta con tu Alma
 ## General Info  :space_invader:
 ***
 El objetivo es hacer una aplicación que consuma la API de Sakura que devuelve un archivo JSON con la información de las cartas.
-El usuario podrá escoger una carta para el pasado, otra para el presente y otra para el futuro, después podrá obtener el significado de cada carta que ha elegido.
+El usuario podrá escoger una carta para el pasado, otra para el presente y otra para el futuro, después podrá obtener el significado de cada carta que ha elegido. [Deploy](https://sakura-tarot.vercel.app/)
  ***
 
 
@@ -48,7 +48,7 @@ El usuario podrá escoger una carta para el pasado, otra para el presente y otra
 ***
 ```
 $ Open your Visual code and a wew terminal
-$ git clone https://github.com/IsabelGuMo/Sakura-Tarot.git
+$ git clone https://github.com/AmelieLT/Sakura-Tarot.git
 $ npm install
 $ npm start
 ```
