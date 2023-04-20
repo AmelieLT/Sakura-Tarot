@@ -25,6 +25,7 @@
     background-color: var(--yellow-header);
     border-radius: 9px;
     margin-top: 10%;
+    height: 23rem;
   }
 
   .cointainerMeaning {
@@ -39,6 +40,8 @@
     border-radius: 9px;
     color: var(--yellow-header);
     margin-bottom: 10%;
+    height: 15rem;
+
   }
   
   

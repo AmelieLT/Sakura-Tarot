@@ -9,8 +9,21 @@ export default function Card({card, selectedCards, setSelectedCards}) {
     const [showFront, setShowFront] = useState(true);
 
     const onClickCard = () => {
-        setShowFront(!showFront);
-        setSelectedCards([...selectedCards, card])  
+        //setShowFront(!showFront);
+        //setSelectedCards([...selectedCards, card])  
+        if (selectedCards && selectedCards.length < 3) {
+            setShowFront(!showFront);
+            setSelectedCards ([...selectedCards, {...card }])
+            console.log(selectedCards)
+            return 
+        }  
+        (  alert ('Ya has agregado 3 cartas'))
+
+    //   if (selectedCards && selectedCards.length === 2) {
+          
+    //       return
+    //   }
+    //   (alert ('Elige al menos 3 cartas'))  
     };
 
     return (
@@ -29,7 +42,7 @@ export default function Card({card, selectedCards, setSelectedCards}) {
                     <BackCard card={card} />
                 ) : <div>
                         <NotfoundBack card={card} />
-                        <p>{card.spanishName}</p>
+                      
                     </div>
             }
                 

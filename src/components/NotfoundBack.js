@@ -6,7 +6,7 @@ function NotfoundBack() {
   return (
     <div>
         <img className='card-image' src={NotFoundImg} alt="Sakura card not found" />
-        <p className='not-found'>Image not found</p>
+      
     </div>
   )
 }

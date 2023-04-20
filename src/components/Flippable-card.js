@@ -1,4 +1,3 @@
-import '../styles/flippable-card.css';
 import Caroussel from './Caroussel'
 import React from 'react'
 
